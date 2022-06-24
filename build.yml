@@ -1,0 +1,11 @@
+Build simple website:
+    stage: build
+    script:
+        - echo "inside the build"
+   
+
+Deploy simple website:
+    stage: deploy
+    script:
+       - echo "inside deploy"
+        
